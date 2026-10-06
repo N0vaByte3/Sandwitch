@@ -1,0 +1,7 @@
+# Format:
+# benutzer:passwort
+# admin:passwort:admin
+
+max:1234
+anna:passwort
+admin:admin123:admin

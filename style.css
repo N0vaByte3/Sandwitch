@@ -1,0 +1,19 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Arial,sans-serif;background:#f1f3f5;color:#222}
+.container{max-width:1000px;margin:auto;padding:24px}
+.card{background:#fff;padding:24px;border-radius:16px;box-shadow:0 5px 20px #0001;margin-bottom:20px}
+.login{max-width:430px;margin:12vh auto;text-align:center}
+input{width:100%;padding:13px;margin:7px 0;border:1px solid #ccc;border-radius:9px;font-size:16px}
+button{border:0;border-radius:9px;padding:12px 18px;background:#1769aa;color:#fff;font-weight:700;cursor:pointer;margin-top:10px}
+button:hover{opacity:.9}
+.secondary{background:#555}.danger{background:#b42318}
+.hidden{display:none!important}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:20px}
+.product{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:15px 0;border-bottom:1px solid #eee}
+.qty{width:80px;margin:0;text-align:center}
+.stat{font-size:20px;padding:8px 0}
+.order{padding:10px 0;border-bottom:1px solid #eee}
+.error{color:#b42318}.success{color:#087443}
+code{background:#eee;padding:2px 5px;border-radius:4px}
+.dashboardHead{display:flex;justify-content:space-between;align-items:center}
+@media(max-width:700px){.topbar{align-items:flex-start;flex-direction:column}.container{padding:12px}}
